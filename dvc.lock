@@ -18,7 +18,3 @@ stages:
       size: 93599
   always_run:
     cmd: python rough/test.py
-    outs:
-    - path: rough\text.txt
-      md5: 0b26e313ed4a7ca6904b0e9369e5b957
-      size: 19
