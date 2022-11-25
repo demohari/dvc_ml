@@ -8,10 +8,7 @@ from src.utils.all_utils import read_yaml, create_directory, save_local_df
 def split_and_save(config_path, params_path):
     config = read_yaml(config_path)
     params = read_yaml(params_path)
-    
 
-    # save dataset in the local directory
-    # create path to directory: artifacts/raw_local_dir/data.csv
     artifacts_dir = config["artifacts"]["artifacts_dir"]
     raw_local_dir = config["artifacts"]["raw_local_dir"]
     raw_local_file = config["artifacts"]["raw_local_file"]
