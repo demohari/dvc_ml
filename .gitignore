@@ -132,3 +132,4 @@ dmypy.json
 .vscode/
 .idea/
 /data.csv
+rough/test.py
