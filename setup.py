@@ -13,6 +13,6 @@ setup(
     url="https://github.com/demohari/dvc_ml",  # Provide either the link to your github or to your website
     author_email="kishore_koneru@yahoo.com",  # Type in your E-Mail
     packages=["src"],
-    python_requires=">=3.7",  # Specify which pyhton versions that you want to support
+    python_requires=">=3.8",  # Specify which pyhton versions that you want to support
     install_requires=["dvc", "pandas", "scikit-learn"],  # requirements
 )
